@@ -45,12 +45,34 @@ class _EditorState extends State<Editor> {
                 ],
               ),
             ),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(flex: 1, child: markdownEditor()),
-                Expanded(flex: 1, child: markdownRender()),
-              ],
+            Expanded(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(flex: 1, child: markdownEditor()),
+                  Expanded(flex: 1, child: markdownRender()),
+                ],
+              ),
+            ),
+            Container(
+              width: MediaQuery.of(context).size.width,
+              color: Theme.of(context).secondaryHeaderColor,
+              child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Made with',
+                        style: TextStyle(color: Theme.of(context).primaryColor),
+                      ),
+                      const FlutterLogo(),
+                      Text(
+                        'Flutter',
+                        style: TextStyle(color: Theme.of(context).primaryColor),
+                      )
+                    ],
+                  )),
             ),
           ],
         ),
