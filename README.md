@@ -4,4 +4,4 @@ A simple markdown editor with a live preview. This project is a good starting po
 
 ## App Preview
 
-![sample](https://user-images.githubusercontent.com/49343842/163501151-4718e3cd-c0b6-4943-a5ab-679a916906b7.PNG)
+![preview](https://user-images.githubusercontent.com/49343842/163501652-f9e6c28a-f3e9-4ea1-ae28-e6eb9d210ba8.PNG)
