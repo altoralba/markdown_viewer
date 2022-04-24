@@ -1,6 +1,6 @@
 # Markdown Viewer
 
-A simple markdown editor with a live preview. This project is a good starting point for making a blog entry creator. Live demo will follow shortly.
+A simple markdown editor with a live preview. This project is a good starting point for making a blog entry creator. Live demo [here](https://markdown-viewer.vercel.app/).
 
 ## App Preview
 
